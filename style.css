@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+
+
+body{
+    font-family: Kanit, serif;
+    background: linear-gradient(90deg, #8537f3 0%,  #ff7e33 100%);}
+
+    p{
+        color: aqua;
+    }
+.nav-link {
+    color: orangered;
+}
+.navbar-nav .nav-link.active{
+    color: purple;
+}
+.navbar-brand img{
+    width: 55px;
+
+}
+.call{
+    animation: call 2s ease 0s infinite normal forwards;
+}
+@keyframes call {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+
+	30% {
+		transform: scale3d(0.75, 1.25, 1);
+	}
+
+	40% {
+		transform: scale3d(1.25, 0.75, 1);
+	}
+
+	50% {
+		transform: scale3d(0.85, 1.15, 1);
+	}
+
+	65% {
+		transform: scale3d(1.05, 0.95, 1);
+	}
+
+	75% {
+		transform: scale3d(0.95, 1.05, 1);
+	}
+
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}
+.navbar-toggler{
+    color: aqua;
+    background-color: aliceblue;
+}
+.sitebar{
+    color:aqua;
+    background: linear-gradient(270deg, #6A00FF 0%, #FF5D00 76%, #FF5D00 100%);
+
+}
+.card{
+    background: linear-gradient(90deg, #8537f3 0%,  #ff7e33 100%);
+    color: aqua;
+}
+.card a {
+    text-decoration: none;
+    color: aqua;
+}
+.slide,
+.f, .btn-primary{
+    color: aqua;
+    margin: auto auto;
+
+}
+footer{
+    background: linear-gradient(270deg, #8537f3 0%,  #ff7e33 100%);
+
+}
+@media(max-width:776px) {
+    .carousel-indicators{
+        display: none;
+    }
+}
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn-primary{
+    color: aqua;
+    background: linear-gradient(90deg, #6A00FF 0%, #FF5D00 76%, #FF5D00 100%);
+}
+.btn-primary:hover{
+    color: linear-gradient(90deg, #6A00FF 0%, #FF5D00 76%, #FF5D00 100%);
+    background: linear-gradient(270deg, #6A00FF 0%, #FF5D00 76%, #FF5D00 100%);
+
+}
